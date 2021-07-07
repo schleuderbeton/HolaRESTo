@@ -4,7 +4,8 @@ simple RESTful service
 ##How to test REST with JSON response and JWT - SAP HR BAPI
 1. Run app
 1. curl test - SAP calls using curl and JWT
-   ``curl -i -H"Authorization: Bearer <JWT>" <URI>``
+- ``curl -i -H"Authorization: Bearer <JWT>" <URI>``
+- ``curl -i -H"Authorization: Bearer <token>" http://localhost:8080/holaresto/resources/ping``
 
 ###JWT (Json Web Token)
 
