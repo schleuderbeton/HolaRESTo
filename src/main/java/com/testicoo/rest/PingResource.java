@@ -43,4 +43,14 @@ public class PingResource {
         return pingResponse;
     }
 
+//    @GET
+//    @Produces(MediaType.APPLICATION_JSON)
+//    public Map<String, String> ping2() {
+//        Map<String, String> pingResponse = new HashMap<>();
+//        pingResponse.put("Method", "PingUnsecureResource.ping()");
+//        pingResponse.put("Timestamp", LocalDateTime.now().toString());
+//        pingResponse.put("Service", "Unsecure Rest Available!");
+//        return pingResponse;
+//    }
+
 }

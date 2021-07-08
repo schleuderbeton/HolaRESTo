@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  holaresto:
+    # set docker image, will be overwritten when deployed
+    build: ./
+    # set final container name
+    ports:
+      # bind service port
+      - 8889:8080
